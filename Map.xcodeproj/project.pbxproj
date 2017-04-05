@@ -16,6 +16,7 @@
 		6B76B79C1E94ED060095BE41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B76B79A1E94ED060095BE41 /* LaunchScreen.storyboard */; };
 		6B76B7A71E94ED060095BE41 /* MapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B76B7A61E94ED060095BE41 /* MapTests.m */; };
 		6B76B7B21E94ED060095BE41 /* MapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B76B7B11E94ED060095BE41 /* MapUITests.m */; };
+		6B76B7C11E94F6420095BE41 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B76B7C01E94F6420095BE41 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		6B76B7AD1E94ED060095BE41 /* MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B76B7B11E94ED060095BE41 /* MapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapUITests.m; sourceTree = "<group>"; };
 		6B76B7B31E94ED060095BE41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B76B7C01E94F6420095BE41 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B76B7C11E94F6420095BE41 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +90,7 @@
 				6B76B7A51E94ED060095BE41 /* MapTests */,
 				6B76B7B01E94ED060095BE41 /* MapUITests */,
 				6B76B7871E94ED050095BE41 /* Products */,
+				6B76B7BF1E94F6420095BE41 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,6 +145,14 @@
 				6B76B7B31E94ED060095BE41 /* Info.plist */,
 			);
 			path = MapUITests;
+			sourceTree = "<group>";
+		};
+		6B76B7BF1E94F6420095BE41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B76B7C01E94F6420095BE41 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
